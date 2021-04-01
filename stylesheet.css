@@ -224,24 +224,21 @@ main {
   }
 
 
-  .social i {
-    color: black;
+@media screen and (max-width: 425px) {
+  main {
+    width: 100%;
+    display: block;
   }
 
-  @media screen and (max-width:1024px) {
-    .social i {
-      color: green;
-    }
+  .blog {
+    width: 100%;
   }
 
-  @media screen and (max-width:768px) {
-    .social i {
-      color: red;
-    }
+  .blog-item {
+    display: block;
   }
 
-  @media screen and (max-width:425px) {
-    .social i {
-      color: blue;
-    }
+  .instagram .sidebar-contents {
+    display: block;
   }
+}
